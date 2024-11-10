@@ -41,7 +41,7 @@ namespace Clase3Escritorio
             //return 0;
 
             decimal resultado = numeroDos == 0 ? 0 : numeroUno / numeroDos;
-            return 0;
+            return resultado;
         }
 
         public double Potencia(decimal numeroUno)

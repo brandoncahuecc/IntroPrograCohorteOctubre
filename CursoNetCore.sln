@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase1Escritorio", "Clase1E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase1Consola", "Clase1Consola\Clase1Consola.csproj", "{B516C09C-1ADD-406D-BBC6-D20AF4B533E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase3Escritorio", "Clase3Escritorio\Clase3Escritorio.csproj", "{84BF7844-814D-4DB4-B19C-40142130F058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase3Escritorio", "Clase3Escritorio\Clase3Escritorio.csproj", "{84BF7844-814D-4DB4-B19C-40142130F058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase4Escritorio", "Clase4Escritorio\Clase4Escritorio.csproj", "{F1899FE1-F62D-44BF-82D0-4DA9E95AEE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase4Consola", "Clase4Consola\Clase4Consola.csproj", "{8AA81304-C1CD-4659-9590-C8AFCABE0FE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{84BF7844-814D-4DB4-B19C-40142130F058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84BF7844-814D-4DB4-B19C-40142130F058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84BF7844-814D-4DB4-B19C-40142130F058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1899FE1-F62D-44BF-82D0-4DA9E95AEE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1899FE1-F62D-44BF-82D0-4DA9E95AEE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1899FE1-F62D-44BF-82D0-4DA9E95AEE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1899FE1-F62D-44BF-82D0-4DA9E95AEE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA81304-C1CD-4659-9590-C8AFCABE0FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA81304-C1CD-4659-9590-C8AFCABE0FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA81304-C1CD-4659-9590-C8AFCABE0FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA81304-C1CD-4659-9590-C8AFCABE0FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

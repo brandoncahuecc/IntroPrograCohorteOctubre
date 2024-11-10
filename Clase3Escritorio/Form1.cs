@@ -5,6 +5,33 @@ namespace Clase3Escritorio
         public Form1()
         {
             InitializeComponent();
+            AsignarNombre();
+        }
+
+        private void AsignarNombre()
+        {
+            //char[] nombreCompletoChar = { 'B', 'r', 'a', 'n', 'd', 'o', 'n'};
+
+            string nombreCompleto = "Brandon Cahuec";
+            DateTime fechaNacimiento = Convert.ToDateTime("2000-01-10");
+
+            int edad = DateTime.Now.Year - fechaNacimiento.Year;
+            bool esMayorEdad = edad > 17 ? true : false;
+
+            if (esMayorEdad)
+            {
+                //Solicitar DPI y RTU
+            }
+            else
+            {
+                //Solicitar partida de nacimiento y DPI de los padres
+            }
+
+            string textoMayorEdad = esMayorEdad ? "Mayor de Edad" : "Menor de Edad";
+
+            lblNombreCompleto.Text = nombreCompleto
+                + "\n" + fechaNacimiento.ToString("dd/MM/yyyy")
+                + "\n" + textoMayorEdad;
         }
 
         private void btnOperar_Click(object sender, EventArgs e)

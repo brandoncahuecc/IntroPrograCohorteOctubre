@@ -43,6 +43,7 @@
             btnOperar = new Button();
             label7 = new Label();
             resultadoPotencia = new TextBox();
+            lblNombreCompleto = new Label();
             SuspendLayout();
             // 
             // numeroUno
@@ -172,11 +173,21 @@
             resultadoPotencia.Size = new Size(100, 23);
             resultadoPotencia.TabIndex = 14;
             // 
+            // lblNombreCompleto
+            // 
+            lblNombreCompleto.AutoSize = true;
+            lblNombreCompleto.Location = new Point(351, 20);
+            lblNombreCompleto.Name = "lblNombreCompleto";
+            lblNombreCompleto.Size = new Size(32, 15);
+            lblNombreCompleto.TabIndex = 15;
+            lblNombreCompleto.Text = "Hola";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblNombreCompleto);
             Controls.Add(resultadoPotencia);
             Controls.Add(label7);
             Controls.Add(btnOperar);
@@ -215,5 +226,6 @@
         private Button btnOperar;
         private Label label7;
         private TextBox resultadoPotencia;
+        private Label lblNombreCompleto;
     }
 }
