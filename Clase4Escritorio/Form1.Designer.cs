@@ -28,12 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            btnIniciar = new Button();
+            btnPagos = new Button();
+            SuspendLayout();
+            // 
+            // btnIniciar
+            // 
+            btnIniciar.Location = new Point(106, 122);
+            btnIniciar.Name = "btnIniciar";
+            btnIniciar.Size = new Size(135, 23);
+            btnIniciar.TabIndex = 0;
+            btnIniciar.Text = "Iniciar Sesión";
+            btnIniciar.UseVisualStyleBackColor = true;
+            btnIniciar.Click += btnIniciar_Click;
+            // 
+            // btnPagos
+            // 
+            btnPagos.Location = new Point(257, 120);
+            btnPagos.Name = "btnPagos";
+            btnPagos.Size = new Size(133, 23);
+            btnPagos.TabIndex = 1;
+            btnPagos.Text = "Realizar Pagos";
+            btnPagos.UseVisualStyleBackColor = true;
+            btnPagos.Click += btnPagos_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnPagos);
+            Controls.Add(btnIniciar);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button btnIniciar;
+        private Button btnPagos;
     }
 }
